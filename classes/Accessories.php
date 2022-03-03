@@ -1,5 +1,5 @@
 <?php
-require_once __DIR__ . '/products.php';
+require_once __DIR__ . '/Products.php';
 class Accessories extends Products
 {
     public $size;
@@ -10,7 +10,6 @@ class Accessories extends Products
     {
         parent::__construct($name, $price);
         $this->setSize($size);
-
         $this->setMaterial($material);
     }
     // settings

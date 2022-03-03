@@ -1,5 +1,5 @@
 <?php
-require_once __DIR__ . '/products.php';
+require_once __DIR__ . '/Products.php';
 class Food extends Products
 {
     public $animal;
